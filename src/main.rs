@@ -23,6 +23,7 @@ fn main() {
                     println!("No webhook url provided");
                     continue;
                 }
+                // test webhook, feel free to funny
                 // https://discord.com/api/webhooks/1003008312301862922/cx-EVvV72z6oo4EhJF1oOSouyg4rQNsHshSHq79O4ja_G-_ZpZTe-tRNS-0zBsgjg1T4
                 if !args.starts_with("https://discord.com/api/webhooks/") {
                     println!("Expected webhook to start with https://discord.com/api/webhooks/");
